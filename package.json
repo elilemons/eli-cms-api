@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "eli-cms-api",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@payloadcms/bundler-webpack": "^1.0.4",
+    "@payloadcms/db-mongodb": "^1.0.4",
+    "@payloadcms/next-payload": "^0.1.8",
+    "@payloadcms/richtext-slate": "^1.0.6",
+    "next": "13.5.6",
+    "payload": "^2.0.11",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "13.5.6"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "13.5.6"
+    "eslint-config-next": "13.5.6",
+    "typescript": "^5"
   }
 }
